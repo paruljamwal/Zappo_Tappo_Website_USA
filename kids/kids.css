@@ -4,12 +4,12 @@
                 padding: 0px;
             } 
             #container{
-                width:99.90%;
+                width:80%;
                 display: flex;
             }
             #upersection{
                 border:transparent 1px solid;
-                width: 100%;
+                width: 95%;
                 height: 100px;
                 display: flex;
                 justify-content: space-between;
@@ -21,7 +21,7 @@
                 height: 50px;
             } 
             #main{
-                width: 100%;
+                width: 90%;
                 border: 1px transparent solid;
                 height: 2000px;
             }
@@ -30,14 +30,7 @@
                 border: 1px transparent solid;
             
             }
-            #leftnav{
-                border: 1px transparent solid;
-            }
-            #goto{
-                width: 100%;
-                color: rgb(131, 137, 143);
-                font-size:xx-small;
-            }
+         
             .sizechart{
                 width:100%;
                 border: 0px slategray solid;
@@ -77,7 +70,7 @@
 
             }
             #wholebox{
-                border :4px solid transparent;
+                border :0px solid transparent;
                 box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
             }
             #txtbox{

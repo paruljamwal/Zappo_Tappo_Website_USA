@@ -1,17 +1,17 @@
 document.querySelector("#mycartbtn").addEventListener("click",gotocart);
 function gotocart(){
       window.location.pathname="../card/cart.html"
-      // window.location.href="cart.html";
+      
 }
 document.querySelector("#goto").addEventListener("click",go);
 function go(){
       window.location.pathname="../mainsign/signin.html"
-      //     window.location.href="signin.html";
+    
 }
 document.querySelector(".bar2").addEventListener("click",women);
 function women(){
       window.location.pathname="../women/women.html";
-      // window.location.href="women.html";
+     
 }
 document.querySelector(".bar1").addEventListener("click",dummy);
 function dummy(){

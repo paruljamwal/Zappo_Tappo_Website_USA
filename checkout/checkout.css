@@ -30,12 +30,20 @@
             font-size: smaller;
             cursor: pointer;
             color: rgb(124, 132, 141);
-            width: 100%;
+            height: 100%;
+            width: 35%;
+            margin-left: 0%;
+            border: 1px red solid;
             
 
         }
+        #nav{
+            border: 1px solid orangered;
+            width: 10%;
+        }
         #leftnav{
-            border: 0px solid transparent;
+            border: 1px solid teal;
+            height: 100%;
             
         }
         .box1{
