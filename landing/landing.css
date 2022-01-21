@@ -216,6 +216,19 @@
                 justify-content: space-between;
                 
             }
+            #leftnav{
+                border: 1px solid transparent;
+                color: slategray;
+                font-size:large;
+            }
+            /* #goto{
+                color:slategray;
+                border: 1px rgb(0, 245, 0) solid;
+            }
+            #goto:hover{
+                border-bottom: black 1px solid;
+                
+            } */
 
 
             #midbox{
@@ -314,13 +327,15 @@
             }
             #goto{
                 border:  0px solid transparent;
+                color: rgb(111, 120, 128);
+                cursor: pointer;
                 /* padding: 1%; */
-                font-size: larger;
+                font-size:larger;
                 margin-right: 1%;
             }
             #goto:hover{
                 border-bottom: 2px solid black;
-                cursor: pointer;
+                
             }
             /* #navbar{
                 justify-content: space-between;

@@ -1,7 +1,7 @@
                 document.querySelector("#accountcreater").addEventListener("click",createacc);
                 function createacc(){
                 //  window.location.href="signin.html";
-                window.location.pathname="../signin/signin.html";
+                window.location.pathname="../signup/signup.html";
 
                 }
                 document.querySelector("#data").addEventListener("submit",identifydetails);
