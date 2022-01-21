@@ -56,7 +56,7 @@
                     console.log(imagedetail);
                     localStorage.setItem("imageinfo",JSON.stringify(imagedetail));
                     //   window.location.href="cart.html";
-                    window.location.pathname="zappos-repository/card/cart.html"
+                    window.location.pathname="../card/cart.html"
                 }
                 // img.addEventListener("doubleclick",gotocart)
                 // function gotocart(){

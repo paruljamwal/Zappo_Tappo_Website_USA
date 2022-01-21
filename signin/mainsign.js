@@ -1,7 +1,7 @@
                 document.querySelector("#accountcreater").addEventListener("click",createacc);
                 function createacc(){
                 //  window.location.href="signin.html";
-                window.location.pathname="zappos-repository/signin/signin.html";
+                window.location.pathname="../signin/signin.html";
 
                 }
                 document.querySelector("#data").addEventListener("submit",identifydetails);
@@ -23,7 +23,7 @@
                 }
                 if(flag===true){
                     // window.location.href="landing.html";
-                    window.location.pathname="zappos-repository/landing/landing.html";
+                    window.location.pathname="../landing/landing.html";
                     alert("Login Successfully !!");
                 }
                 else{

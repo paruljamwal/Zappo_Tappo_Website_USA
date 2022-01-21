@@ -16,6 +16,6 @@
         console.log(detailsbag);
         localStorage.setItem("crediantials",JSON.stringify(detailsbag));
         // window.location.href="landing.html";
-        window.location.pathname="zappos-repository/signin/mainsign.html";
+        window.location.pathname="../signin/mainsign.html";
         alert("Account created succesfully !!");
     }

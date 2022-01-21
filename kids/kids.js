@@ -51,7 +51,7 @@
                 localStorage.setItem("kidscart",JSON.stringify(cart));
                 alert("You Added This Item to cart !");
                 // window.location.href="cart.html";
-                window.location.pathname="zappos-repository/card/cart.html";
+                window.location.pathname="../card/cart.html";
                 }
                 bag2.append(img);
                 var brand=document.createElement("p");

@@ -5,7 +5,7 @@ if(value=="1234"){
     alert("Payment Successfull !");
     console.log(value);
     // window.location.href="success.html";
-    window.location.pathname="zappos-repository/success/success.html";
+    window.location.pathname="../success/success.html";
 
 }
 

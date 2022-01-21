@@ -30,6 +30,14 @@
                 border: 1px transparent solid;
             
             }
+            #leftnav{
+                border: 1px transparent solid;
+            }
+            #goto{
+                width: 100%;
+                color: rgb(131, 137, 143);
+                font-size:xx-small;
+            }
             .sizechart{
                 width:100%;
                 border: 0px slategray solid;

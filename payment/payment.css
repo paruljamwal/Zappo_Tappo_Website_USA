@@ -1,38 +1,46 @@
-#pay{
-    display: flex;
-    justify-content: space-between;
-}
-#main{
-    width: 70%;
-    margin-left:15%;
-    border-radius: 5px;
-    border:rgb(175, 179, 182) 1px solid;
-}
-input{
-    width: 70%;
-    font-size: larger;
-    margin-bottom: 2%;
-    height: 50px; 
-    margin-left: 15%;
-}
-select{
-    width: 70%;
-    font-size: larger;
-    margin-bottom: 2%;
-    margin-left: 15%;
-    height: 50px;
-}
-#payment{
-    width: 70%;
-    font-size: larger;
-    background-color: rgb(255, 196, 87);
-    margin-bottom: 2%;
-    height: 50px;
-    margin-left: 15%;
-}
-#payment:hover{
-    background-color: rgb(250, 250, 118);
-}
-h1{
-    text-align: center;
-}
+                #pay{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                #main{
+                    width: 70%;
+                    margin-left:15%;
+                    border-radius: 5px;
+                    border:rgb(175, 179, 182) 1px solid;
+                }
+                input{
+                    width: 70%;
+                    font-size: larger;
+                    margin-bottom: 2%;
+                    height: 50px; 
+                    margin-left: 15%;
+                }
+                select{
+                    width: 70%;
+                    font-size: larger;
+                    margin-bottom: 2%;
+                    margin-left: 15%;
+                    height: 50px;
+                }
+                #leftnav{
+                    border: 1px transparent solid;
+                }
+                #goto{
+                    width: 100%;
+                    color: rgb(131, 137, 143);
+                    font-size:xx-small;
+                }
+                #payment{
+                    width: 70%;
+                    font-size: larger;
+                    background-color: rgb(255, 196, 87);
+                    margin-bottom: 2%;
+                    height: 50px;
+                    margin-left: 15%;
+                }
+                #payment:hover{
+                    background-color: rgb(250, 250, 118);
+                }
+                h1{
+                    text-align: center;
+                }
