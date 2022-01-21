@@ -126,6 +126,6 @@
                        function gotopay(){
                            confirm("This moves to you checkout page");
                             // window.location.href="checkout.html";
-                            window.location.pathname="zappos-repository/checkout/checkout.html";
+                            window.location.pathname="../checkout/checkout.html";
                        }
                
