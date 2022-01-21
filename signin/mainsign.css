@@ -1,0 +1,110 @@
+#container{
+    border : 1px solid transparent;
+    width: 100%;
+    height: 700px;
+   
+    
+}
+#main{
+    border: 1px solid transparent;
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    height: 100%;
+   
+}
+#passbox{
+    display: flex;
+    justify-content:space-around;
+}
+#logo{
+    margin-top:30px;
+    text-align: center;
+}
+#box{
+    width: 40%;
+    height: 70%;
+    border-radius: 4px;
+    margin: 2% 30% 0 30%;
+    border: 1px grey solid;
+}
+input{
+    width: 80%;
+    height: 40px;
+}
+.pass1{
+    font-weight: bolder;
+    border: transparent 1px solid;
+    margin-top: 2% 0 0 0;
+    font-size: larger;
+}
+.pass2{
+    color: rgb(15, 15, 15);
+    border: transparent 1px solid;
+    padding-top:-5px;
+    margin-top:3px 0 0 0;
+    text-decoration: none;
+    
+}
+#btn{
+    background-color: rgb(0,57,83);
+    color: whitesmoke;
+    cursor: pointer;
+    margin-top:0%;
+    border-radius: 5px;
+    font-size: larger;
+}
+#btn:hover{
+    color:rgb(0,57,83) ;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    border:rgb(0,57,83) 2px solid;
+}
+button{
+    border: 3px solid rgb(0,57,83);
+    color: rgb(0,57,83);
+    margin-top: 3%;
+    padding: 2% 11%;
+    border-radius: 4px;
+    font-size: larger;
+}
+#mid{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;   
+}
+.mid1,.mid3{
+    width: 17%;
+    height:1px;
+    margin-top: 2%;
+    background-color: rgb(204, 204, 204);
+}
+.mid2{
+    color: grey;
+    margin-top: -2px;
+    font-size: large;
+}
+#details{
+    margin-top: 4%;
+    display: flex;
+}
+.details1{
+    width: 25px;
+    padding-left: 10%;
+}
+.details2{
+    padding:3% 0  0 1%;
+}
+.email1{
+    padding-right: 30%;
+}
+#password{
+    margin: 2%;
+}
+ .email1{
+     border:  1px solid transparent;
+     font-size: larger;
+     font-weight: bolder;
+     margin:0 0 1% 10%;
+     width: 3px;
+}

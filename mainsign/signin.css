@@ -1,0 +1,92 @@
+#main{
+    border: rgb(192, 192, 192) 1px solid;
+    width: 70%;
+    margin-top: 200px;
+    height: 500px;
+    margin: auto;
+}
+#container{
+    border:transparent 1px solid;
+    margin: auto;
+    width: 50%;
+    height: 500px;
+}
+#signbox{
+    border-bottom: 1px solid rgb(187, 186, 186);
+}
+#zappobtn{
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+    border: black 1px solid;
+}
+#mid{
+    /* padding-left:25%; */
+    margin-top: 10%;
+    text-align: center;
+    border:  transparent 1px solid;
+}
+
+#zappobtn:hover{
+    background-color: rgb(0,118,189);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+#zappobtn+p{
+    margin-top: 5%;
+}
+#low{
+    display: flex;
+    height: 60px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+#amazon{
+    width:290px;
+    display: inline-block;
+    margin-top: 5%;
+    /* padding:20% 50%; */
+    height:100%;   
+}
+#amazon:hover{
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: rgb(0,118,189);
+}
+#goggle{
+    width:290px;
+    margin-left: 4%;
+    display: inline-block;
+    margin-top: 5%;
+    /* padding:20% 50%; */
+    height:100%;   
+}
+#goggle:hover{
+    color:whitesmoke;
+    font-weight: bolder;
+    background-color: rgb(0,118,189);
+}
+#mid2{
+    border: 1px solid transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+}
+.mida , .midc{
+    border: black 1px solid;
+    margin-top: 4%;
+    background-color: rgb(47, 47, 47);
+    width: 35%;
+    height: 0%;
+}
+.midb{
+    margin-top: -1px;
+   font-size: larger;
+}
+#txt{
+    margin-top: 6%;
+    text-align: center;
+    font-size: large;
+}

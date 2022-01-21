@@ -1,0 +1,91 @@
+#footer{
+    width: 98%;
+    height: 1000px;
+    margin-top: 5%;
+    border: 1px transparent solid;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: rgb(3,44,72);
+}
+.upfooter, .lower{
+    border: 1px transparent solid;
+    /* padding-left: 2%; */
+    width: 100%;
+    height: 20%;
+    background-color: rgb(3,44,72);
+}
+.middle{
+    border: 1px transparent solid;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    background-color:rgb(0,57,83) ;
+    font-weight: lighter;
+}
+.middle>div{
+    border: solid transparent 1px ;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.middle11 ,.middle12 , .middle13 , .middle14{
+    border: transparent 1px solid;
+    width: 70%;
+    font-size: medium;
+    padding-left: 5%;
+    line-height: 100%;
+
+}
+#footerbtn{
+    width: 20%;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 2px solid whitesmoke;
+    font-size: larger;
+    background-color:rgb(0,57,83) ;
+    cursor: pointer;
+    height: 55px;
+
+}
+#footerbtn:hover{
+    background-color: whitesmoke;
+    color: rgb(0,57,83);
+    border: 2px solid rgb(0,57,83);
+}
+#footerinput{
+    width: 20%;
+    border-radius: 5px;
+    margin-left: 2%;
+    font-size: larger;
+    height: 50px;
+}
+.lower1{
+    display: flex;
+    font-size:larger ;
+    padding-left: 2%; 
+    font-weight: lighter;
+}
+.lower2{
+    font-size:larger ;
+    padding-left: 2%; 
+    font-weight: lighter;
+    
+}
+.upfooter1, .upfooter2{
+    padding-left: 2%;
+
+}
+.upfooter2{
+    font-size: larger;
+    font-weight: lighter;
+}
+.midtxt{
+    line-height: 5px;
+    text-align: center;
+}
+.grey{
+    color: rgb(82, 82, 82);
+    font-weight: lighter;
+}

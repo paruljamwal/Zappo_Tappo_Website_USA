@@ -1,0 +1,194 @@
+        #container1{
+            width: 90%;
+            margin: auto;
+            border:1px rgb(255, 253, 253) solid;
+            display: flex;
+        }
+        .leftbox{
+            width: 60%;
+            border:1px solid rgb(231, 231, 231);
+        }
+        .rightbox{
+            width: 40%;
+            border: 1px solid rgb(222, 227, 243);
+            background-color: rgb(245,245,245);
+        }
+        h1+p{
+            color:rgb(114, 111, 111);
+            font-size: large;
+        }
+        #amazon{
+            background-color: rgb(255, 230, 0);
+            border-radius: 5px ;
+            width: 40%;
+            height: 40px;
+        }
+        #hd1{
+            color: rgb(104, 103, 103);
+        }
+        #goto{
+            font-size: smaller;
+            cursor: pointer;
+            color: rgb(124, 132, 141);
+            width: 100%;
+            
+
+        }
+        #leftnav{
+            border: 0px solid transparent;
+            
+        }
+        .box1{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .boxa,.boxc{
+            width: 40%;
+            height: 1px;
+            background-color: rgb(173, 168, 168);
+        }
+        label{
+        font-size: x-large;
+        padding-bottom: -40px;
+        }
+        input{
+            width: 90%;
+            height: 45px;
+            border: rgb(123, 126, 129) 1px solid;
+            font-size: larger;
+            margin-top: 3%;
+        }
+        input:hover{
+            border: 4px dashed rgb(52, 52, 212);
+            cursor: pointer;
+        }
+        #select{
+            width: 90%;
+            font-size: larger;
+            height: 45px;
+        }
+
+        #select:hover{
+            border: 5px dashed navy;
+            cursor: pointer;
+        }
+        #check{
+            display: flex;
+        }
+        #check1{
+            width: 4%;
+        }
+        #check2{
+            font-size: larger;
+        }
+        .box3{
+            display: flex;
+        }
+        #shipbtn{
+            height: 50px;
+            width: 50%;
+            margin-top: 1px;
+            background-color:rgb(6, 90, 129) ;
+            color: whitesmoke;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: larger;
+        }
+        #shipbtn:hover{
+            background-color:rgb(0,57,83) ;
+        }
+        #btn2{
+            width: 90%;
+            height: 60px;
+        }
+        #rightbox{
+            padding: 10%;
+        }
+        #btn3{
+            width: 90%;
+            height: 50px;
+            margin-top: 3%;
+            margin-left: 5%;
+            border: 1px solid rgb(102, 111, 121);
+        }
+        .txt1{
+            font-size: larger;
+            margin-left: 5%;
+        }
+        #box4 , #box5 , #box6 , #box7 , #box8 , #box9{
+            display: flex;
+            padding: 3%;
+            justify-content: space-between;
+        }
+        #upbox{
+            border:  1px solid rgb(121, 133, 146);
+            width: 80%;
+            margin: auto;
+            margin-left: 5%;
+            border-radius: 5px;
+            background-color: rgb(245,245,245);
+        }
+        #boxmid{
+            background-color: rgb(245,245,245); 
+            margin-top: 5%;
+            width: 80%;
+            height: 200px;
+            text-align: center;
+            border-radius: 5px;
+            border: 1px solid slategray; 
+            margin-left: 5%;
+            margin-top: 3%;
+            }
+            #apply{
+                width: 98%;
+                margin-top: 2%;
+                height: 50px;
+            }
+
+            #promo{
+                width: 98%;
+            }
+            #lower{
+                background-color: rgb(245,245,245); 
+            margin-top: 5%;
+            width: 80%;
+            height: 400px;
+            border-radius: 5px;
+            border: 1px solid slategray; 
+            margin-left: 5%;
+            margin-top: 3%;
+            }
+            #lowselect1{
+                width: 50%;
+                height: 50px;
+            }
+            #lowselect2{
+                width: 50%;
+                height: 50px;
+
+            }
+            #lowselect3{
+                width: 40%;
+                height: 50px;
+            }
+            #gift{
+                width: 70%;
+                height: 50px;
+                margin: 3% 0 0 10%;
+            }
+            #gift1{
+                width: 80%;
+                background-color: rgb(245,245,245); 
+                margin-top: 3%;
+                border-radius: 5px;
+                margin-left: 6%;
+                height: 150px;
+                border: 1px solid rgb(147, 153, 160);
+            }
+            #gift1+h2{
+                margin-left: 6%;
+            }
+
+
+        

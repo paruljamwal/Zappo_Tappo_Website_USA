@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cart{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:2% 2%;
+           
+        }
+        #cart>div{
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        }
+    </style>
+</head>
+<body>
+ <div id="container">
+     <h2 id="total"></h2>
+    <div id="cart"></div>
+ </div>     
+
+</body>
+</html>
+<script>
+   var cartitems= JSON.parse(localStorage.getItem("imageinfo"))||[];
+   var Final1=JSON.parse(localStorage.getItem("finalcart1"))||[];
+    console.log(cartitems);
+    cartitems.map(function(data){
+    var bag1=document.createElement("div"); 
+    bag1.setAttribute("id","wholebox");
+    var bag2=document.createElement("div");
+    bag2.setAttribute("id","imgbox");
+    var bag3=document.createElement("div");
+    bag3.setAttribute("id","txtbox");
+    var img=document.createElement("img");
+    img.setAttribute("id","image");
+    img.setAttribute("src",data.img_URl);
+    bag2.append(img);
+    var brand=document.createElement("h2");
+    brand.textContent=data.brand;
+    var name=document.createElement("p");
+    name.setAttribute("id","text");
+    name.textContent=data.name;
+    var price=document.createElement("p");
+    price.setAttribute("id","money");
+    price.textContent=data.price;
+    bag3.append(brand,name,price)
+    bag1.append(bag2,bag3);
+    document.querySelector("#cart").append(bag1);
+    localStorage.setItem("finalcart1",JSON.stringify(bag1));
+
+    });
+   
+    var cartitems2=JSON.parse(localStorage.getItem("kidscart"))||[];
+    var final2=JSON.parse(localStorage.getItem("finalcart2"))||[];
+    cartitems.map(function(data){
+    var bag1=document.createElement("div"); 
+    bag1.setAttribute("id","wholebox");
+    var bag2=document.createElement("div");
+    bag2.setAttribute("id","imgbox");
+    var bag3=document.createElement("div");
+    bag3.setAttribute("id","txtbox");
+    var img=document.createElement("img");
+    img.setAttribute("src",data.ima_url);
+    bag2.append(img);
+    var brand=document.createElement("h2");
+    brand.textContent=data.brand;
+    var name=document.createElement("p");
+    name.setAttribute("id","text");
+    name.textContent=data.name;
+    var price=document.createElement("p");
+    price.setAttribute("id","money");
+    price.textContent=data.price;
+    bag3.append(brand,name,price)
+    bag1.append(bag2,bag3);
+    document.querySelector("#cart").append(bag1);
+    localStorage.setItem("finalcart2",JSON.stringify(bag1));
+    });
+    var total1=cartitems.reduce(function(ac,cv){
+                return ac+Number(cv.price);
+            });
+
+            var total2=cartitems2.reduce(function(av,cv){
+                return ac+Number(cv.price);
+            });
+
+            var Total= total1 + total2;
+            document.querySelector("#total").textContent=`Total is : ${Total}`
+    
+</script>
